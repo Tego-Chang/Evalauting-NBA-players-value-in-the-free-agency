@@ -1,13 +1,6 @@
 # Evalauting-NBA-players-value-in-the-free-agency
 (https://github.com/Tego-Chang/Evalauting-NBA-players-value-in-the-free-agency/files/7657428/proposal.pdf)
 
----
-title: "Evaluating NBA players' value in the free-agent market"
-author: "TegoChang"
-date: "10/26/2021"
-output: pdf_document
----
-
 ## Motivation
 
 For general managers in NBA teams, one of the major tasks is to decide what contracts their teams shall provide for the players they are interested in based on their values from and off the court. As the budget for each team is regulated by the league, called the salary cap, pursuing the players they want with a reasonable or even economical salary has been more critical than ever. The purpose of this project is to build a statistical model to predict an NBA player’s deserved salary and highlight the players that could be overpaid or lowballed. The general managers and the front office of each team are considered as the target audience for this project. 
