@@ -21,7 +21,7 @@ library(stargazer) # for displaying summary of model
 ```
 
 ## Summary
-In this report, we aim to evaluate the value of NBA players in terms of the salary they could earn next season, based on their performance in the current season. During the analyzing process, we have conducted data wrangling, exploring data analysis (EDA), and modeling by multiple linear regression with and without considering a hierarchical framework. With our proposed model, we have provided a prediction of players' salary in the 2021/22 season with a 77% Hit Rate. Moreover, we analyzed the overpaid and lowballed cases and identified the metrics we shall additionally consider to further explore the topic.  
+In this report, we aim to evaluate the value of NBA players in terms of the salary they could earn next season, based on their performance in the current season. During the analyzing process, we have conducted data wrangling, exploratory data analysis (EDA), and modeling by multiple linear regression with and without considering a hierarchical framework. With our proposed model, we have provided a prediction of players' salary in the 2021/22 season with a 77% Hit Rate. Moreover, we analyzed the overpaid and lowballed cases and identified the metrics we shall additionally consider to further explore the topic.  
 
 ## Introduction
 For general managers or the front office in NBA teams, one of the major tasks is to decide what contracts their teams shall provide for the players they are interested in based on these players' values from and off the court. As the budget for each team is regulated by the league, called (Team) Salary Cap, pursuing the players they want with a reasonable or even economical cost has been more critical than ever. 
@@ -43,13 +43,13 @@ getwd()
 #                                   "numeric","numeric","numeric","numeric",
 #                                   "numeric","numeric","numeric","numeric",
 #                                   "numeric","numeric","numeric","numeric"))
-training <- read.csv("training.csv", header=T, 
+training <- read.csv("../Data/training.csv", header=T, 
                      colClasses=c("character","numeric","factor","factor",
                                   "numeric","numeric","numeric","numeric", 
                                   "numeric","numeric","numeric","numeric",
                                   "numeric","numeric","numeric","numeric",
                                   "numeric","numeric","numeric","numeric"))
-testing <- read.csv("testing.csv",header=T, 
+testing <- read.csv("../Data/testing.csv",header=T, 
                      colClasses=c("character","numeric","factor","factor",
                                   "numeric","numeric","numeric","numeric", 
                                   "numeric","numeric","numeric","numeric",
